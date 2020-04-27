@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "strict": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "lib": ["es2015", "es2016", "es2017", "dom"],
+    "resolveJsonModule": true
+  },
+  "exclude": ["node_modules"]
+}
