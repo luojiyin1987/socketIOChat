@@ -10,7 +10,7 @@
     "koa": "^2.13.4",
     "koa-router": "^12.0.0",
     "koa-send": "^5.0.1",
-    "koa-socket-2": "^2.0.0",
+    "koa-socket-2": "^1.2.0",
     "mongoose": "^6.7.3",
     "socket.io": "^4.5.4",
     "socket.io-client": "^4.5.4",
