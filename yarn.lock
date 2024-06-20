@@ -1446,7 +1446,7 @@ whatwg-url@^11.0.0:
 
 ws@~7.4.2:
   version "7.4.6"
-  resolved "https://registry.npmjs.org/ws/-/ws-7.4.6.tgz"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-7.4.6.tgz#5654ca8ecdeee47c33a9a4bf6d28e2be2980377c"
 
 ws@~8.17.1:
   version "8.17.1"
