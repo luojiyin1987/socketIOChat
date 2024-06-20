@@ -12,8 +12,8 @@
     "koa-send": "^5.0.1",
     "koa-socket-2": "^1.2.0",
     "mongoose": "^6.11.3",
-    "socket.io": "^4.5.4",
-    "socket.io-client": "^4.5.4",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5",
     "ts-node": "^10.9.1"
   }
 }
