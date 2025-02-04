@@ -860,7 +860,7 @@ packages:
     resolution: {integrity: sha512-jlf/foYIKywAt3x/XWKZ/3rz8OSJPiWktjmk891alJUEjiVxKX9LEO92qH3hv4aJ0mN3MWPvGMCy8jQi95xK4w==}
     engines: {node: '>=18'}
 
-  ws@7.4.6:
+  ws@7.5.10:
     resolution: {integrity: sha512-YmhHDO4MzaDLB+M9ym/mDA5z0naX8j7SIlT8f8z+I0VtzsRbekxEutHSme7NPS2qE8StCYQNUnfWdXta/Yu85A==}
     engines: {node: '>=8.3.0'}
     peerDependencies:
@@ -1771,7 +1771,7 @@ snapshots:
       cors: 2.8.5
       debug: 4.3.7
       engine.io-parser: 4.0.3
-      ws: 7.4.6
+      ws: 7.5.10
     transitivePeerDependencies:
       - bufferutil
       - supports-color
@@ -2197,7 +2197,7 @@ snapshots:
       tr46: 5.0.0
       webidl-conversions: 7.0.0
 
-  ws@7.4.6: {}
+  ws@7.5.10: {}
 
   ws@8.17.1: {}
 
