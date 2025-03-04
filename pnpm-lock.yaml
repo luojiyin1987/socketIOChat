@@ -1771,7 +1771,7 @@ snapshots:
       cors: 2.8.5
       debug: 4.3.7
       engine.io-parser: 4.0.3
-      ws: 7.4.6
+      ws: 7.5.10
     transitivePeerDependencies:
       - bufferutil
       - supports-color
