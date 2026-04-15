@@ -4,10 +4,6 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-overrides:
-  koa-socket-2>socket.io: ^4.8.3
-  socket.io-parser: ^4.2.6
-
 importers:
 
   .:
@@ -22,8 +18,8 @@ importers:
         specifier: ^5.0.1
         version: 5.0.1
       koa-socket-2:
-        specifier: ^2.0.0
-        version: 2.0.0
+        specifier: file:vendor/koa-socket-2
+        version: file:vendor/koa-socket-2
       mongoose:
         specifier: ^9.4.1
         version: 9.4.1
@@ -299,9 +295,9 @@ packages:
     resolution: {integrity: sha512-tmcyQ/wXXuxpDxyNXv5yNNkdAMdFRqwtegBXUaowiQzUKqJehttS0x2j0eOZDQAyloAth5w6wwBImnFzkUz3pQ==}
     engines: {node: '>= 8'}
 
-  koa-socket-2@2.0.0:
-    resolution: {integrity: sha512-YSy9nYtd4/CR9bChAeL9/3lb17ietphRFgNTAwOkhrCOHFZuOPv+dMORK3sxSJygiIqH5ugJyc2/4Ek1Hc5eVA==}
-    engines: {node: '>= 4'}
+  koa-socket-2@file:vendor/koa-socket-2:
+    resolution: {directory: vendor/koa-socket-2, type: directory}
+    engines: {node: '>=10.2.0'}
 
   koa@3.2.0:
     resolution: {integrity: sha512-TrM4/tnNY7uJ1aW55sIIa+dqBvc4V14WRIAlGcWat9wV5pRS9Wr5Zk2ZTjQP1jtfIHDoHiSbPuV08P0fUZo2pg==}
@@ -785,7 +781,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  koa-socket-2@2.0.0:
+  koa-socket-2@file:vendor/koa-socket-2:
     dependencies:
       koa-compose: 4.1.0
       socket.io: 4.8.3

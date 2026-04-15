@@ -10,7 +10,7 @@
     "@koa/router": "^15.4.0",
     "koa": "^3.2.0",
     "koa-send": "^5.0.1",
-    "koa-socket-2": "^2.0.0",
+    "koa-socket-2": "file:vendor/koa-socket-2",
     "mongoose": "^9.4.1",
     "socket.io": "^4.8.3",
     "socket.io-client": "^4.8.3",
@@ -18,11 +18,5 @@
   },
   "devDependencies": {
     "@types/koa": "^3.0.2"
-  },
-  "pnpm": {
-    "overrides": {
-      "koa-socket-2>socket.io": "^4.8.3",
-      "socket.io-parser": "^4.2.6"
-    }
   }
 }
