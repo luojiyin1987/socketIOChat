@@ -3,7 +3,7 @@
 declare module 'koa-socket-2' {
     import { ServerOptions as HttpsServerOptions } from 'https';
     import Application from 'koa';
-    import { RouterContext } from 'koa-router';
+    import type { RouterContext } from '@koa/router';
     import { ServerOptions as SocketioServerOptions } from 'socket.io';
 
     interface IOptions {
