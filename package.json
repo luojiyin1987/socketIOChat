@@ -18,5 +18,11 @@
   },
   "devDependencies": {
     "@types/koa": "^3.0.2"
+  },
+  "pnpm": {
+    "overrides": {
+      "koa-socket-2>socket.io": "^4.8.3",
+      "socket.io-parser": "^4.2.6"
+    }
   }
 }
