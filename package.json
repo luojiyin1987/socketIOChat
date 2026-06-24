@@ -7,16 +7,16 @@
   "author": "luojiyin",
   "license": "MIT",
   "dependencies": {
-    "@koa/router": "^15.4.0",
-    "koa": "^3.2.0",
+    "@koa/router": "^15.6.0",
+    "koa": "^3.2.1",
     "koa-send": "^5.0.1",
     "koa-socket-2": "file:vendor/koa-socket-2",
-    "mongoose": "^9.4.1",
+    "mongoose": "^9.7.2",
     "socket.io": "^4.8.3",
     "socket.io-client": "^4.8.3",
     "ts-node": "^10.9.2"
   },
   "devDependencies": {
-    "@types/koa": "^3.0.2"
+    "@types/koa": "^3.0.3"
   }
 }

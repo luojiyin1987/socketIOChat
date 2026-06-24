@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@koa/router':
-        specifier: ^15.4.0
-        version: 15.4.0(koa@3.2.0)
+        specifier: ^15.6.0
+        version: 15.6.0(koa@3.2.1)
       koa:
-        specifier: ^3.2.0
-        version: 3.2.0
+        specifier: ^3.2.1
+        version: 3.2.1
       koa-send:
         specifier: ^5.0.1
         version: 5.0.1
@@ -21,8 +21,8 @@ importers:
         specifier: file:vendor/koa-socket-2
         version: file:vendor/koa-socket-2
       mongoose:
-        specifier: ^9.4.1
-        version: 9.4.1
+        specifier: ^9.7.2
+        version: 9.7.2
       socket.io:
         specifier: ^4.8.3
         version: 4.8.3
@@ -31,11 +31,11 @@ importers:
         version: 4.8.3
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@types/node@22.13.9)(typescript@5.6.2)
+        version: 10.9.2(@types/node@26.0.0)(typescript@6.0.3)
     devDependencies:
       '@types/koa':
-        specifier: ^3.0.2
-        version: 3.0.2
+        specifier: ^3.0.3
+        version: 3.0.3
 
 packages:
 
@@ -47,26 +47,26 @@ packages:
     resolution: {integrity: sha512-bRISgCIjP20/tbWSPWMEi54QVPRZExkuD9lJL+UIxUKtwVJA8wW1Trb1jMs1RFXo1CBTNZ/5hpC9QvmKWdopKw==}
     engines: {node: '>=6.0.0'}
 
-  '@jridgewell/sourcemap-codec@1.5.0':
-    resolution: {integrity: sha512-gv3ZRaISU3fjPAgNsriBRqGWQL6quFx04YMPW/zD8XMLsU32mhCCbfbO6KZFLjvYpCZ8zyDEgqsgf+PwPaM7GQ==}
+  '@jridgewell/sourcemap-codec@1.5.5':
+    resolution: {integrity: sha512-cYQ9310grqxueWbl+WuIUIaiUaDcj7WOq5fVhEljNVgRfOUhY9fy2zTvfoqWsnebh8Sl70VScFbICvJnLKB0Og==}
 
   '@jridgewell/trace-mapping@0.3.9':
     resolution: {integrity: sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ==}
 
-  '@koa/router@15.4.0':
-    resolution: {integrity: sha512-vKYlXtoCfcAN8z4dHiveYX55rTYOgHEYJNumK1WM9ZAwaArhreGVkyC1LTMGfUQUJyIO/SbwRFBOHeOCY8/MaQ==}
+  '@koa/router@15.6.0':
+    resolution: {integrity: sha512-iEOXlvGIBqSNkGXrg0XtMARAOm5zA24oedXxiTGEkrD4JgwVjfRDddCQvW1s4WEcwDYvyecRbf8BikXsuEEj8w==}
     engines: {node: '>= 20'}
     peerDependencies:
       koa: ^2.0.0 || ^3.0.0
 
-  '@mongodb-js/saslprep@1.4.6':
-    resolution: {integrity: sha512-y+x3H1xBZd38n10NZF/rEBlvDOOMQ6LKUTHqr8R9VkJ+mmQOYtJFxIlkkK8fZrtOiL6VixbOBWMbZGBdal3Z1g==}
+  '@mongodb-js/saslprep@1.4.11':
+    resolution: {integrity: sha512-o9rAHc0IpIjuPSxRutWpE1F62x7n+4mVS4rCNHkzhIUMQcc18bb6xEq5wd2NdN0WjepIyXIppRshYI2kQDOZVA==}
 
   '@socket.io/component-emitter@3.1.2':
     resolution: {integrity: sha512-9BCxFwvbGg/RsZK9tjXd8s4UcwR0MWeFQ1XEKIQVVvAGJyINdrqKMcTRyLoK8Rse1GjzLV9cwjWV1olXRWEXVA==}
 
-  '@tsconfig/node10@1.0.11':
-    resolution: {integrity: sha512-DcRjDCujK/kCk/cUe8Xz8ZSpm8mS3mNNpta+jGCA6USEDfktlNvm1+IuZ9eTcDbNk41BHwpHHeW+N1lKCz4zOw==}
+  '@tsconfig/node10@1.0.12':
+    resolution: {integrity: sha512-UCYBaeFvM11aU2y3YPZ//O5Rhj+xKyzy7mvcIoAjASbigy8mHMryP5cK7dgjlz2hWxh1g5pLw084E0a/wlUSFQ==}
 
   '@tsconfig/node12@1.0.11':
     resolution: {integrity: sha512-cqefuRsh12pWyGsIoBKJA9luFu3mRxCA+ORZvA4ktLSzIuCUtWVxGIuXigEwO5/ywWFMZ2QEGKWvkZG1zDMTag==}
@@ -92,8 +92,8 @@ packages:
   '@types/cookies@0.9.2':
     resolution: {integrity: sha512-1AvkDdZM2dbyFybL4fxpuNCaWyv//0AwsuUk2DWeXyM1/5ZKm6W3z6mQi24RZ4l2ucY+bkSHzbDVpySqPGuV8A==}
 
-  '@types/cors@2.8.17':
-    resolution: {integrity: sha512-8CGDvrBj1zgo2qE+oS3pOCyYNqCPryMWY2bGfwA0dcfopWGgxs+78df0Rs3rc9THP4JkOhLsAa+15VdpAqkcUA==}
+  '@types/cors@2.8.19':
+    resolution: {integrity: sha512-mFNylyeyqN93lfe/9CSxOGREz8cpzAhH+E93xJ4xWQf62V8sQ/24reV2nyzUWM6H6Xji+GGHpkbLe7pVoUEskg==}
 
   '@types/express-serve-static-core@5.1.1':
     resolution: {integrity: sha512-v4zIMr/cX7/d2BpAEX3KNKL/JrT1s43s96lLvvdTmza1oEvDudCqK9aF/djc/SWgy8Yh0h30TZx5VpzqFCxk5A==}
@@ -113,14 +113,14 @@ packages:
   '@types/koa-compose@3.2.9':
     resolution: {integrity: sha512-BroAZ9FTvPiCy0Pi8tjD1OfJ7bgU1gQf0eR6e1Vm+JJATy9eKOG3hQMFtMciMawiSOVnLMdmUOC46s7HBhSTsA==}
 
-  '@types/koa@3.0.2':
-    resolution: {integrity: sha512-7TRzVOBcH/q8CfPh9AmHBQ8TZtimT4Sn+rw8//hXveI6+F41z93W8a+0B0O8L7apKQv+vKBIEZSECiL0Oo1JFA==}
+  '@types/koa@3.0.3':
+    resolution: {integrity: sha512-TdtNEJ7sYSrFQcVuS2ySsVqnq5EyE3oJbnfFJvkC9UtGP4Kpem5KE7r+ivHIbIAQAofSqnlB5D3vkfYO69TQpg==}
 
-  '@types/node@22.13.9':
-    resolution: {integrity: sha512-acBjXdRJ3A6Pb3tqnw9HZmyR3Fiol3aGxRCK1x3d+6CDAMjl7I649wpSd+yNURCjbOUGu9tqtLKnTGxmK6CyGw==}
+  '@types/node@26.0.0':
+    resolution: {integrity: sha512-vf2YFi1iY9lHGwNJMs01biZFbKJkrZR1T6/MlzjhJLPdntOHLhTrDSnSVcdtvjihi4VQNlrFRIxLsDBlQpAipA==}
 
-  '@types/qs@6.15.0':
-    resolution: {integrity: sha512-JawvT8iBVWpzTrz3EGw9BTQFg3BQNmwERdKE22vlTxawwtbyUSlMppvZYKLZzB5zgACXdXxbD3m1bXaMqP/9ow==}
+  '@types/qs@6.15.1':
+    resolution: {integrity: sha512-GZHUBZR9hckSUhrxmp1nG6NwdpM9fCunJwyThLW1X3AyHgd9IlHb6VANpQQqDr2o/qQp6McZ3y/IA2rVzKzSbw==}
 
   '@types/range-parser@1.2.7':
     resolution: {integrity: sha512-hKormJbkJqzQGhziax5PItDUTMAM9uE2XXQmM37dyd4hVM+5aVl7oVxMVUiVQn2oCQFN/LKCZdvSM0pFRqbSmQ==}
@@ -137,16 +137,19 @@ packages:
   '@types/whatwg-url@13.0.0':
     resolution: {integrity: sha512-N8WXpbE6Wgri7KUSvrmQcqrMllKZ9uxkYWMt+mCSGwNc0Hsw9VQTW7ApqI4XNrx6/SaM2QQJCzMPDEXE058s+Q==}
 
+  '@types/ws@8.18.1':
+    resolution: {integrity: sha512-ThVF6DCVhA8kUGy+aazFQ4kXQ7E1Ty7A3ypFOe0IcJV8O/M511G99AW24irKrW56Wt44yG9+ij8FaqoBGkuBXg==}
+
   accepts@1.3.8:
     resolution: {integrity: sha512-PYAthTa2m2VKxuvSD3DPC/Gy+U+sOA1LAuT8mkmRuvw+NACSaeXEQ+NHcVF7rONl6qcaxV3Uuemwawk+7+SJLw==}
     engines: {node: '>= 0.6'}
 
-  acorn-walk@8.3.4:
-    resolution: {integrity: sha512-ueEepnujpqee2o5aIYnvHU6C0A42MNdsIDeqy5BydrkuC5R1ZuUFnm27EeFJGoEHJQgn3uleRvmTXaJgfXbt4g==}
+  acorn-walk@8.3.5:
+    resolution: {integrity: sha512-HEHNfbars9v4pgpW6SO1KSPkfoS0xVOM/9UzkJltjlsHZmJasxg8aXkuZa7SMf8vKGIBhpUsPluQSqhJFCqebw==}
     engines: {node: '>=0.4.0'}
 
-  acorn@8.14.0:
-    resolution: {integrity: sha512-cl669nCJTZBsL97OF4kUQm5g5hC2uihk0NxY3WENAC0TYdILVkAyHymAntgxGkl7K+t0cXIrH5siy5S4XkFycA==}
+  acorn@8.17.0:
+    resolution: {integrity: sha512-xRQbDb9BnwDafYNn6Vwl839DYVjqXYb1XVGtWAZ1kcDc6iwAL4hg3B1dZlRiuENFeO2H53gFG3in621AdERVAg==}
     engines: {node: '>=0.4.0'}
     hasBin: true
 
@@ -157,8 +160,8 @@ packages:
     resolution: {integrity: sha512-lGe34o6EHj9y3Kts9R4ZYs/Gr+6N7MCaMlIFA3F1R2O5/m7K06AxfSeO5530PEERE6/WyEg3lsuyw4GHlPZHog==}
     engines: {node: ^4.5.0 || >= 5.9}
 
-  bson@7.2.0:
-    resolution: {integrity: sha512-YCEo7KjMlbNlyHhz7zAZNDpIpQbd+wOEHJYezv0nMYTn4x31eIUM2yomNNubclAt63dObUzKHWsBLJ9QcZNSnQ==}
+  bson@7.3.0:
+    resolution: {integrity: sha512-WmjjMEwFwZHmGnAb7wn90MhkiT+mTm4x/rLj7dvAPWfwnVWDXhLun2e+UM88MJoDGW624yzZglVX/zTBy9ZZMw==}
     engines: {node: '>=20.19.0'}
 
   content-disposition@1.0.1:
@@ -169,6 +172,10 @@ packages:
     resolution: {integrity: sha512-nTjqfcBFEipKdXCv4YDQWCfmcLZKm81ldF0pAopTvyrFGVbcR6P/VAAd5G7N+0tTr8QqiU0tFadD6FK4NtJwOA==}
     engines: {node: '>= 0.6'}
 
+  content-type@2.0.0:
+    resolution: {integrity: sha512-j/O/d7GcZCyNl7/hwZAb606rzqkyvaDctLmckbxLzHvFBzTJHuGEdodATcP3yIRoDrLHkIATJuvzbFlp/ki2cQ==}
+    engines: {node: '>=18'}
+
   cookie@0.7.2:
     resolution: {integrity: sha512-yki5XnKuf750l50uGTllt6kKILY4nQ1eNIQatoXEByZ5dWgnKqbnqmTrBE5B4N7lrMJKQ2ytWMiTO2o0v6Ew/w==}
     engines: {node: '>= 0.6'}
@@ -177,30 +184,12 @@ packages:
     resolution: {integrity: sha512-TG2hpqe4ELx54QER/S3HQ9SRVnQnGBtKUz5bLQWtYAQ+o6GpgMs6sYUvaiJjVxb+UXwhRhAEP3m7LbsIZ77Hmw==}
     engines: {node: '>= 0.8'}
 
-  cors@2.8.5:
-    resolution: {integrity: sha512-KIHbLJqu73RGr/hnbrO9uBeixNGuvSQjul/jdFvS/KFSIH1hWVd1ng7zOHx+YrEfInLG7q4n6GHQ9cDtxv/P6g==}
+  cors@2.8.6:
+    resolution: {integrity: sha512-tJtZBBHA6vjIAaF6EnIaq6laBBP9aq/Y3ouVJjEfoHbRBcHBAHYcMh/w8LDrk2PvIMMq8gmopa5D4V8RmbrxGw==}
     engines: {node: '>= 0.10'}
 
   create-require@1.1.1:
     resolution: {integrity: sha512-dcKFX3jn0MpIaXjisoRvexIJVEKzaq7z2rZKxf+MSr9TkdmHmsU4m2lcLojrj/FHl8mk5VxMmYA+ftRkP/3oKQ==}
-
-  debug@4.3.7:
-    resolution: {integrity: sha512-Er2nc/H7RrMXZBFCEim6TCmMk02Z8vLC2Rbi1KEBggpo0fS6l0S1nnapwmIi3yW/+GOJap1Krg4w0Hg80oCqgQ==}
-    engines: {node: '>=6.0'}
-    peerDependencies:
-      supports-color: '*'
-    peerDependenciesMeta:
-      supports-color:
-        optional: true
-
-  debug@4.4.0:
-    resolution: {integrity: sha512-6WTZ/IxCY/T6BALoZHaE4ctp9xm+Z5kY/pzYaCHRFeyVhojxlrm+46y68HA6hr0TcwEssoxNiDEUJQjfPZ/RYA==}
-    engines: {node: '>=6.0'}
-    peerDependencies:
-      supports-color: '*'
-    peerDependenciesMeta:
-      supports-color:
-        optional: true
 
   debug@4.4.3:
     resolution: {integrity: sha512-RGwwWnwQvkVfavKVt22FGLw+xYSdzARwm0ru6DhTVA3umU5hZc28V3kO4stgYryrTlLpuvgI9GiijltAjNbcqA==}
@@ -229,8 +218,8 @@ packages:
     resolution: {integrity: sha512-2sJGJTaXIIaR1w4iJSNoN0hnMY7Gpc/n8D4qSCJw8QqFWXf7cuAgnEHxBpweaVcPevC2l3KpjYCx3NypQQgaJg==}
     engines: {node: '>= 0.8', npm: 1.2.8000 || >= 1.4.16}
 
-  diff@4.0.2:
-    resolution: {integrity: sha512-58lmxKSA4BNyLz+HHMUzlOEpg09FV+ev6ZMe3vJihgdxzgcwZ8VoEEPmALCZG9LmqfVoNMMKpttIYTVG6uDY7A==}
+  diff@4.0.4:
+    resolution: {integrity: sha512-X07nttJQkwkfKfvTPG/KSnE2OMdcUCao6+eXF3wmnIQRn2aPAHH3VxDbDOdegkd6JbPsXqShpvEOHfAT+nCNwQ==}
     engines: {node: '>=0.3.1'}
 
   ee-first@1.1.1:
@@ -240,15 +229,15 @@ packages:
     resolution: {integrity: sha512-Q0n9HRi4m6JuGIV1eFlmvJB7ZEVxu93IrMyiMsGC0lrMJMWzRgx6WGquyfQgZVb31vhGgXnfmPNNXmxnOkRBrg==}
     engines: {node: '>= 0.8'}
 
-  engine.io-client@6.6.3:
-    resolution: {integrity: sha512-T0iLjnyNWahNyv/lcjS2y4oE358tVS/SYQNxYXGAJ9/GLgH4VCvOQ/mhTjqU88mLZCQgiG8RIegFHYCdVC+j5w==}
+  engine.io-client@6.6.6:
+    resolution: {integrity: sha512-iY6QdftLQ9pyiPoX082bpf/u1UewnOaJrtJIF9T0++QB34lZrj0uP+Q/bj8AlUsAxqhnkTV2BS8SBZSxOmoV5Q==}
 
   engine.io-parser@5.2.3:
     resolution: {integrity: sha512-HqD3yTBfnBxIrbnM1DoD6Pcq8NECnh8d4As1Qgh0z5Gg3jRRIqijury0CL3ghu/edArpUYiYqQiDUQBIs4np3Q==}
     engines: {node: '>=10.0.0'}
 
-  engine.io@6.6.4:
-    resolution: {integrity: sha512-ZCkIjSYNDyGn0R6ewHDtXgns/Zre/NT6Agvq1/WobF7JXgFff4SeDroKiCO3fNJreU9YG429Sc81o4w5ok/W5g==}
+  engine.io@6.6.9:
+    resolution: {integrity: sha512-clKkw4C7nJ22mGgoVcCg6V/W/TxdNyIOTr89k2ONZu81qqkddPFDF0LXcbAwhzPD8DjkiRCjzuiO6Y+fkpD4vg==}
     engines: {node: '>=10.2.0'}
 
   escape-html@1.0.3:
@@ -280,8 +269,8 @@ packages:
   inherits@2.0.4:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
 
-  kareem@3.2.0:
-    resolution: {integrity: sha512-VS8MWZz/cT+SqBCpVfNN4zoVz5VskR3N4+sTmUXme55e9avQHntpwpNq0yjnosISXqwJ3AQVjlbI4Dyzv//JtA==}
+  kareem@3.3.0:
+    resolution: {integrity: sha512-kpSuLD3/7RenBnjnJdOHXCKC8dTd1JzeOiJhN0necWWci6cC+qX+VuwPnMVgb+a4+KNJSfgqahpnfWaeDXCimw==}
     engines: {node: '>=18.0.0'}
 
   keygrip@1.1.0:
@@ -299,8 +288,8 @@ packages:
     resolution: {directory: vendor/koa-socket-2, type: directory}
     engines: {node: '>=10.2.0'}
 
-  koa@3.2.0:
-    resolution: {integrity: sha512-TrM4/tnNY7uJ1aW55sIIa+dqBvc4V14WRIAlGcWat9wV5pRS9Wr5Zk2ZTjQP1jtfIHDoHiSbPuV08P0fUZo2pg==}
+  koa@3.2.1:
+    resolution: {integrity: sha512-e7IpWJrnanNUroVK2taAgMxoEZvHLXdQiNjeExSu/DEIWm83jaKGBgb7tLmu2rMYpA027qFB3iLR/k3AVpFRnA==}
     engines: {node: '>= 18'}
 
   make-error@1.3.6:
@@ -333,8 +322,8 @@ packages:
     resolution: {integrity: sha512-h0AZ9A7IDVwwHyMxmdMXKy+9oNlF0zFoahHiX3vQ8e3KFcSP3VmsmfvtRSuLPxmyv2vjIDxqty8smTgie/SNRQ==}
     engines: {node: '>=20.19.0'}
 
-  mongodb@7.1.0:
-    resolution: {integrity: sha512-kMfnKunbolQYwCIyrkxNJFB4Ypy91pYqua5NargS/f8ODNSJxT03ZU3n1JqL4mCzbSih8tvmMEMLpKTT7x5gCg==}
+  mongodb@7.2.0:
+    resolution: {integrity: sha512-F/2+BMZtLVhY30ioZp0dAmZ+IRZMBqI+nrv6t5+9/1AIwCa8sMRC3jBf81lpxMhnZgqq8CoUD503Z1oZWq1/sw==}
     engines: {node: '>=20.19.0'}
     peerDependencies:
       '@aws-sdk/credential-providers': ^3.806.0
@@ -360,8 +349,8 @@ packages:
       socks:
         optional: true
 
-  mongoose@9.4.1:
-    resolution: {integrity: sha512-4rFBWa+/wdBQSfvnOPJBpiSG6UCEbhSQh865dEdaH9Y8WfHBUC+I2XT28dp0IBIGrEwmh+gzrgZgea5PbmrHWA==}
+  mongoose@9.7.2:
+    resolution: {integrity: sha512-VxxS3tjOGRIvhBMd84RR7L1WbDdm08Qq6V88VMq6jP6aE1Q+NlbTZDBtye2NAyO48i5kBFxM2oxfX0CPKNwCMg==}
     engines: {node: '>=20.19.0'}
 
   mpath@0.9.0:
@@ -415,8 +404,8 @@ packages:
   sift@17.1.3:
     resolution: {integrity: sha512-Rtlj66/b0ICeFzYTuNvX/EF1igRbbnGSvEyT79McoZa/DeGhMyC5pWKOEsZKnpkqtSeovd5FL/bjHWC3CIIvCQ==}
 
-  socket.io-adapter@2.5.5:
-    resolution: {integrity: sha512-eLDQas5dzPgOWCk9GuuJC2lBqItuhKI4uxGgo9aIV7MYbk2h9Q6uULEh8WBzThoI7l+qU9Ast9fVUmkqPP9wYg==}
+  socket.io-adapter@2.5.8:
+    resolution: {integrity: sha512-6Oy52pbg+kvdCVvjcN+FnY7BvxZ7cIHNScbvztT/It5d0vbwoJoVZmF2gjJmnV0/4WlXRfG15zc45ySk9Ah8bw==}
 
   socket.io-client@4.8.3:
     resolution: {integrity: sha512-uP0bpjWrjQmUt5DTHq9RuoCBdFJF10cdX9X+a368j/Ft0wmaVgxlrjvK3kjvgCODOMMOz9lcaRzxmso0bTWZ/g==}
@@ -445,8 +434,8 @@ packages:
     resolution: {integrity: sha512-o5sSPKEkg/DIQNmH43V0/uerLrpzVedkUh8tGNvaeXpfpuwjKenlSox/2O/BTlZUtEe+JG7s5YhEz608PlAHRA==}
     engines: {node: '>=0.6'}
 
-  tr46@5.0.0:
-    resolution: {integrity: sha512-tk2G5R2KRwBd+ZN0zaEXpmzdKyOYksXwywulIX95MBODjSzMIuQnQ3m8JxgbhnL1LeVo7lqQKsYa1O3Htl7K5g==}
+  tr46@5.1.1:
+    resolution: {integrity: sha512-hdF5ZgjTqgAntKkklYw0R03MG2x/bSzTtkxmIRw/sTNV8YXsCJ1tfLAX23lhxhHJlEf3CRCOCGGWw3vI3GaSPw==}
     engines: {node: '>=18'}
 
   ts-node@10.9.2:
@@ -467,17 +456,17 @@ packages:
     resolution: {integrity: sha512-LxhtAkPDTkVCMQjt2h6eBVY28KCjikZqZfMcC15YBeNjkgUpdCfBu5HoiOTDu86v6smE8yOjyEktJ8hlbANHQA==}
     engines: {node: '>=0.6.x'}
 
-  type-is@2.0.1:
-    resolution: {integrity: sha512-OZs6gsjF4vMp32qrCbiVSkrFmXtG/AZhY3t0iAMrMBiAZyV9oALtXO8hsrHbMXF9x6L3grlFuwW2oAz7cav+Gw==}
-    engines: {node: '>= 0.6'}
+  type-is@2.1.0:
+    resolution: {integrity: sha512-faYHw0anBbc/kWF3zFTEnxSFOAGUX9GFbOBthvDdLsIlEoWOFOtS0zgCiQYwIskL9iGXZL3kAXD8OoZ4GmMATA==}
+    engines: {node: '>= 18'}
 
-  typescript@5.6.2:
-    resolution: {integrity: sha512-NW8ByodCSNCwZeghjN3o+JX5OFH0Ojg6sadjEKY4huZ52TqbJTJnDo5+Tw98lSy63NZvi4n+ez5m2u5d4PkZyw==}
+  typescript@6.0.3:
+    resolution: {integrity: sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw==}
     engines: {node: '>=14.17'}
     hasBin: true
 
-  undici-types@6.20.0:
-    resolution: {integrity: sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==}
+  undici-types@8.3.0:
+    resolution: {integrity: sha512-j375ScV60dom+YkPFIfTLcOiPxkN/buHz5GobjLhixFuANaNs3C9l4GmrWqejgXWJ7BbJcFYpTEUkS1Ge8bpZQ==}
 
   v8-compile-cache-lib@3.0.1:
     resolution: {integrity: sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==}
@@ -490,12 +479,12 @@ packages:
     resolution: {integrity: sha512-VwddBukDzu71offAQR975unBIGqfKZpM+8ZX6ySk8nYhVoo5CYaZyzt3YBvYtRtO+aoGlqxPg/B87NGVZ/fu6g==}
     engines: {node: '>=12'}
 
-  whatwg-url@14.1.0:
-    resolution: {integrity: sha512-jlf/foYIKywAt3x/XWKZ/3rz8OSJPiWktjmk891alJUEjiVxKX9LEO92qH3hv4aJ0mN3MWPvGMCy8jQi95xK4w==}
+  whatwg-url@14.2.0:
+    resolution: {integrity: sha512-De72GdQZzNTUBBChsXueQUnPKDkg/5A5zp7pFDuQAj5UFoENpiACU0wlCvzpAGnTkj++ihpKwKyYewn/XNUbKw==}
     engines: {node: '>=18'}
 
-  ws@8.17.1:
-    resolution: {integrity: sha512-6XQFvXTkbfUOZOKKILFG1PDK2NDQs4azKQl26T0YS5CxqWLgXajbPZ+h4gZekJyRqFU8pvnbAbbs/3TgRPy+GQ==}
+  ws@8.21.0:
+    resolution: {integrity: sha512-Vsp28b7DRcimFQvrqu2Wek3z1iYxDCWqHYB8Qsnk/S4RfaCQzPGPyBNuVjJV3cd6UiKtUtp6sNM77gWvzcCH+g==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
@@ -522,30 +511,30 @@ snapshots:
 
   '@jridgewell/resolve-uri@3.1.2': {}
 
-  '@jridgewell/sourcemap-codec@1.5.0': {}
+  '@jridgewell/sourcemap-codec@1.5.5': {}
 
   '@jridgewell/trace-mapping@0.3.9':
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
-      '@jridgewell/sourcemap-codec': 1.5.0
+      '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@koa/router@15.4.0(koa@3.2.0)':
+  '@koa/router@15.6.0(koa@3.2.1)':
     dependencies:
       debug: 4.4.3
       http-errors: 2.0.1
-      koa: 3.2.0
+      koa: 3.2.1
       koa-compose: 4.1.0
       path-to-regexp: 8.4.2
     transitivePeerDependencies:
       - supports-color
 
-  '@mongodb-js/saslprep@1.4.6':
+  '@mongodb-js/saslprep@1.4.11':
     dependencies:
       sparse-bitfield: 3.0.3
 
   '@socket.io/component-emitter@3.1.2': {}
 
-  '@tsconfig/node10@1.0.11': {}
+  '@tsconfig/node10@1.0.12': {}
 
   '@tsconfig/node12@1.0.11': {}
 
@@ -555,16 +544,16 @@ snapshots:
 
   '@types/accepts@1.3.7':
     dependencies:
-      '@types/node': 22.13.9
+      '@types/node': 26.0.0
 
   '@types/body-parser@1.19.6':
     dependencies:
       '@types/connect': 3.4.38
-      '@types/node': 22.13.9
+      '@types/node': 26.0.0
 
   '@types/connect@3.4.38':
     dependencies:
-      '@types/node': 22.13.9
+      '@types/node': 26.0.0
 
   '@types/content-disposition@0.5.9': {}
 
@@ -573,16 +562,16 @@ snapshots:
       '@types/connect': 3.4.38
       '@types/express': 5.0.6
       '@types/keygrip': 1.0.6
-      '@types/node': 22.13.9
+      '@types/node': 26.0.0
 
-  '@types/cors@2.8.17':
+  '@types/cors@2.8.19':
     dependencies:
-      '@types/node': 22.13.9
+      '@types/node': 26.0.0
 
   '@types/express-serve-static-core@5.1.1':
     dependencies:
-      '@types/node': 22.13.9
-      '@types/qs': 6.15.0
+      '@types/node': 26.0.0
+      '@types/qs': 6.15.1
       '@types/range-parser': 1.2.7
       '@types/send': 1.2.1
 
@@ -600,9 +589,9 @@ snapshots:
 
   '@types/koa-compose@3.2.9':
     dependencies:
-      '@types/koa': 3.0.2
+      '@types/koa': 3.0.3
 
-  '@types/koa@3.0.2':
+  '@types/koa@3.0.3':
     dependencies:
       '@types/accepts': 1.3.7
       '@types/content-disposition': 0.5.9
@@ -611,24 +600,24 @@ snapshots:
       '@types/http-errors': 2.0.5
       '@types/keygrip': 1.0.6
       '@types/koa-compose': 3.2.9
-      '@types/node': 22.13.9
+      '@types/node': 26.0.0
 
-  '@types/node@22.13.9':
+  '@types/node@26.0.0':
     dependencies:
-      undici-types: 6.20.0
+      undici-types: 8.3.0
 
-  '@types/qs@6.15.0': {}
+  '@types/qs@6.15.1': {}
 
   '@types/range-parser@1.2.7': {}
 
   '@types/send@1.2.1':
     dependencies:
-      '@types/node': 22.13.9
+      '@types/node': 26.0.0
 
   '@types/serve-static@2.2.0':
     dependencies:
       '@types/http-errors': 2.0.5
-      '@types/node': 22.13.9
+      '@types/node': 26.0.0
 
   '@types/webidl-conversions@7.0.3': {}
 
@@ -636,26 +625,32 @@ snapshots:
     dependencies:
       '@types/webidl-conversions': 7.0.3
 
+  '@types/ws@8.18.1':
+    dependencies:
+      '@types/node': 26.0.0
+
   accepts@1.3.8:
     dependencies:
       mime-types: 2.1.35
       negotiator: 0.6.3
 
-  acorn-walk@8.3.4:
+  acorn-walk@8.3.5:
     dependencies:
-      acorn: 8.14.0
+      acorn: 8.17.0
 
-  acorn@8.14.0: {}
+  acorn@8.17.0: {}
 
   arg@4.1.3: {}
 
   base64id@2.0.0: {}
 
-  bson@7.2.0: {}
+  bson@7.3.0: {}
 
   content-disposition@1.0.1: {}
 
   content-type@1.0.5: {}
+
+  content-type@2.0.0: {}
 
   cookie@0.7.2: {}
 
@@ -664,20 +659,12 @@ snapshots:
       depd: 2.0.0
       keygrip: 1.1.0
 
-  cors@2.8.5:
+  cors@2.8.6:
     dependencies:
       object-assign: 4.1.1
       vary: 1.1.2
 
   create-require@1.1.1: {}
-
-  debug@4.3.7:
-    dependencies:
-      ms: 2.1.3
-
-  debug@4.4.0:
-    dependencies:
-      ms: 2.1.3
 
   debug@4.4.3:
     dependencies:
@@ -693,18 +680,18 @@ snapshots:
 
   destroy@1.2.0: {}
 
-  diff@4.0.2: {}
+  diff@4.0.4: {}
 
   ee-first@1.1.1: {}
 
   encodeurl@2.0.0: {}
 
-  engine.io-client@6.6.3:
+  engine.io-client@6.6.6:
     dependencies:
       '@socket.io/component-emitter': 3.1.2
-      debug: 4.3.7
+      debug: 4.4.3
       engine.io-parser: 5.2.3
-      ws: 8.17.1
+      ws: 8.21.0
       xmlhttprequest-ssl: 2.1.2
     transitivePeerDependencies:
       - bufferutil
@@ -713,17 +700,18 @@ snapshots:
 
   engine.io-parser@5.2.3: {}
 
-  engine.io@6.6.4:
+  engine.io@6.6.9:
     dependencies:
-      '@types/cors': 2.8.17
-      '@types/node': 22.13.9
+      '@types/cors': 2.8.19
+      '@types/node': 26.0.0
+      '@types/ws': 8.18.1
       accepts: 1.3.8
       base64id: 2.0.0
       cookie: 0.7.2
-      cors: 2.8.5
-      debug: 4.3.7
+      cors: 2.8.6
+      debug: 4.4.3
       engine.io-parser: 5.2.3
-      ws: 8.17.1
+      ws: 8.21.0
     transitivePeerDependencies:
       - bufferutil
       - supports-color
@@ -765,7 +753,7 @@ snapshots:
 
   inherits@2.0.4: {}
 
-  kareem@3.2.0: {}
+  kareem@3.3.0: {}
 
   keygrip@1.1.0:
     dependencies:
@@ -775,7 +763,7 @@ snapshots:
 
   koa-send@5.0.1:
     dependencies:
-      debug: 4.4.0
+      debug: 4.4.3
       http-errors: 1.8.1
       resolve-path: 1.4.0
     transitivePeerDependencies:
@@ -790,7 +778,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  koa@3.2.0:
+  koa@3.2.1:
     dependencies:
       accepts: 1.3.8
       content-disposition: 1.0.1
@@ -808,7 +796,7 @@ snapshots:
       on-finished: 2.4.1
       parseurl: 1.3.3
       statuses: 2.0.2
-      type-is: 2.0.1
+      type-is: 2.1.0
       vary: 1.1.2
 
   make-error@1.3.6: {}
@@ -832,18 +820,18 @@ snapshots:
   mongodb-connection-string-url@7.0.1:
     dependencies:
       '@types/whatwg-url': 13.0.0
-      whatwg-url: 14.1.0
+      whatwg-url: 14.2.0
 
-  mongodb@7.1.0:
+  mongodb@7.2.0:
     dependencies:
-      '@mongodb-js/saslprep': 1.4.6
-      bson: 7.2.0
+      '@mongodb-js/saslprep': 1.4.11
+      bson: 7.3.0
       mongodb-connection-string-url: 7.0.1
 
-  mongoose@9.4.1:
+  mongoose@9.7.2:
     dependencies:
-      kareem: 3.2.0
-      mongodb: 7.1.0
+      kareem: 3.3.0
+      mongodb: 7.2.0
       mpath: 0.9.0
       mquery: 6.0.0
       ms: 2.1.3
@@ -890,10 +878,10 @@ snapshots:
 
   sift@17.1.3: {}
 
-  socket.io-adapter@2.5.5:
+  socket.io-adapter@2.5.8:
     dependencies:
-      debug: 4.3.7
-      ws: 8.17.1
+      debug: 4.4.3
+      ws: 8.21.0
     transitivePeerDependencies:
       - bufferutil
       - supports-color
@@ -903,7 +891,7 @@ snapshots:
     dependencies:
       '@socket.io/component-emitter': 3.1.2
       debug: 4.4.3
-      engine.io-client: 6.6.3
+      engine.io-client: 6.6.6
       socket.io-parser: 4.2.6
     transitivePeerDependencies:
       - bufferutil
@@ -921,10 +909,10 @@ snapshots:
     dependencies:
       accepts: 1.3.8
       base64id: 2.0.0
-      cors: 2.8.5
+      cors: 2.8.6
       debug: 4.4.3
-      engine.io: 6.6.4
-      socket.io-adapter: 2.5.5
+      engine.io: 6.6.9
+      socket.io-adapter: 2.5.8
       socket.io-parser: 4.2.6
     transitivePeerDependencies:
       - bufferutil
@@ -941,39 +929,39 @@ snapshots:
 
   toidentifier@1.0.1: {}
 
-  tr46@5.0.0:
+  tr46@5.1.1:
     dependencies:
       punycode: 2.3.1
 
-  ts-node@10.9.2(@types/node@22.13.9)(typescript@5.6.2):
+  ts-node@10.9.2(@types/node@26.0.0)(typescript@6.0.3):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
-      '@tsconfig/node10': 1.0.11
+      '@tsconfig/node10': 1.0.12
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 22.13.9
-      acorn: 8.14.0
-      acorn-walk: 8.3.4
+      '@types/node': 26.0.0
+      acorn: 8.17.0
+      acorn-walk: 8.3.5
       arg: 4.1.3
       create-require: 1.1.1
-      diff: 4.0.2
+      diff: 4.0.4
       make-error: 1.3.6
-      typescript: 5.6.2
+      typescript: 6.0.3
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
 
   tsscmp@1.0.6: {}
 
-  type-is@2.0.1:
+  type-is@2.1.0:
     dependencies:
-      content-type: 1.0.5
+      content-type: 2.0.0
       media-typer: 1.1.0
       mime-types: 3.0.2
 
-  typescript@5.6.2: {}
+  typescript@6.0.3: {}
 
-  undici-types@6.20.0: {}
+  undici-types@8.3.0: {}
 
   v8-compile-cache-lib@3.0.1: {}
 
@@ -981,12 +969,12 @@ snapshots:
 
   webidl-conversions@7.0.0: {}
 
-  whatwg-url@14.1.0:
+  whatwg-url@14.2.0:
     dependencies:
-      tr46: 5.0.0
+      tr46: 5.1.1
       webidl-conversions: 7.0.0
 
-  ws@8.17.1: {}
+  ws@8.21.0: {}
 
   xmlhttprequest-ssl@2.1.2: {}
 
